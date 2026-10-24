@@ -1,16 +1,54 @@
-# React + Vite
+# Art Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive single-page application (SPA) showcasing six original digital artworks by Summer Lamphear.
 
-Currently, two official plugins are available:
+**Live site:** https://mellifluous-paletas-20ae76.netlify.app/
+**Repository:** https://github.com/summerlamphear427-png/art-gallery
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Responsive grid layout (3 columns on desktop, 2 on tablet, 1 on mobile) built with Bootstrap
+- Client-side routing with React Router, so navigation happens without page reloads
+- Reusable `ArtCard` component for each artwork
+- Quick view modal for previewing an artwork's details
+- Dedicated detail page for each artwork (`/art/:id`)
+- Artwork data stored in a JSON file and loaded dynamically
+- Lazy loading of images using the native `loading="lazy"` attribute
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React (with Vite)
+- React Router
+- Bootstrap and React-Bootstrap
+- Deployed on Netlify
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+- `src/App.jsx`: routes, gallery page, and Quick view modal
+- `src/components/ArtCard.jsx`: reusable card for each artwork
+- `src/components/ArtDetail.jsx`: detail page for a single artwork
+- `src/data/artworks.json`: artwork data (title, artist, year, description, image)
+- `public/images/`: artwork images
+- `public/_redirects`: makes page refreshes work on Netlify
+
+## Running Locally
+
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run dev`
+4. Open `http://localhost:5173`
+
+## Build and Deployment
+
+Run `npm run build` to create a minified production build in the `dist` folder. The site is deployed to Netlify, which rebuilds automatically whenever changes are pushed to the `main` branch.
+
+## Design Choices
+
+- **React and Vite** for fast setup and a large amount of documentation.
+- **Bootstrap** for a responsive grid and ready-made components like cards and modals.
+- **A JSON file** instead of an API, since the data is small and doesn't change.
+- **Local images** in the `public` folder so they never break from external links.
+
+## Testing
+
+Responsive behavior was tested with browser developer tools' device mode at phone, tablet, and desktop widths.
