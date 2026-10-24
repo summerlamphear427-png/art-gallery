@@ -4,7 +4,7 @@
     "title": "Burning Blue",
     "artist": "Summer Lamphear",
     "year": 2026,
-    "description": "A short description of Burning Blue goes here.",
+    "description": "Layering colors and shapes to create a visually abstract piece.",
     "image": "/images/piece1.png"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Catatonic",
     "artist": "Summer Lamphear",
     "year": 2026,
-    "description": "A short description of Catatonic goes here.",
+    "description": "Layering colors and shapes to create a wild woman.",
     "image": "/images/piece2.png"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Naturally",
     "artist": "Summer Lamphear",
     "year": 2026,
-    "description": "A short description of Naturally goes here.",
+    "description": "Repeating shapes to create an organic pattern.",
     "image": "/images/piece3.png"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Midnight BBQ",
     "artist": "Summer Lamphear",
     "year": 2026,
-    "description": "A short description of Midnight BBQ goes here.",
+    "description": "Repetition of circles to create something anyone could recognize.",
     "image": "/images/piece4.png"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Dicey",
     "artist": "Summer Lamphear",
     "year": 2026,
-    "description": "A short description of Dicey goes here.",
+    "description": "Created using an image of a flood light at four in the morning.",
     "image": "/images/piece5.png"
   },
   {
@@ -44,7 +44,7 @@
     "title": "Drop",
     "artist": "Summer Lamphear",
     "year": 2026,
-    "description": "A short description of Drop goes here.",
+    "description": "Created using drops of water on a flat surface.",
     "image": "/images/piece6.png"
   }
 ]
