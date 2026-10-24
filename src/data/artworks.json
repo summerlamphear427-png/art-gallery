@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Burning Blue",
+    "artist": "Summer Lamphear",
+    "year": 2026,
+    "description": "A short description of Burning Blue goes here.",
+    "image": "/images/piece1.png"
+  },
+  {
+    "id": 2,
+    "title": "Catatonic",
+    "artist": "Summer Lamphear",
+    "year": 2026,
+    "description": "A short description of Catatonic goes here.",
+    "image": "/images/piece2.png"
+  },
+  {
+    "id": 3,
+    "title": "Naturally",
+    "artist": "Summer Lamphear",
+    "year": 2026,
+    "description": "A short description of Naturally goes here.",
+    "image": "/images/piece3.png"
+  },
+  {
+    "id": 4,
+    "title": "Midnight BBQ",
+    "artist": "Summer Lamphear",
+    "year": 2026,
+    "description": "A short description of Midnight BBQ goes here.",
+    "image": "/images/piece4.png"
+  },
+  {
+    "id": 5,
+    "title": "Dicey",
+    "artist": "Summer Lamphear",
+    "year": 2026,
+    "description": "A short description of Dicey goes here.",
+    "image": "/images/piece5.png"
+  },
+  {
+    "id": 6,
+    "title": "Drop",
+    "artist": "Summer Lamphear",
+    "year": 2026,
+    "description": "A short description of Drop goes here.",
+    "image": "/images/piece6.png"
+  }
+]
